@@ -25,12 +25,14 @@ body{
 /*NAVBAR*/
 
 header{
-    background-color:transparent;
+    background-color:#637381;
     height: 20rem;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-around;
     margin-bottom: 10rem;
+    box-shadow: 0px 0px 20px #8899a8;
 }
 
 header .header-fixed{
@@ -50,7 +52,7 @@ header .header-log p{
     left: 24rem;
     top: 16rem;
     font-size: 2.5rem;
-    color: #3758f9;
+    color: black;
 }
 
 nav .navbar ul{
@@ -72,7 +74,7 @@ nav .navbar a{
 
 nav .navbar a:hover{
     transform: scale(1.05);
-    color: #3758f9;
+    color:#f9fafb;
 }
 
 /* CONTAINERS*/
@@ -95,7 +97,7 @@ section{
 }
 
 .container .container-txt span{
-    color: #3758f9;
+    color:#637381;
 }
 
 .container-dark{
@@ -116,17 +118,13 @@ section{
 }
 
 .container-dark .container-dark-txt span{
-    color: #3758f9;
+    color:#637381;
 }
 
 .container-lung .container-lung-txt h3{
     text-align: center;
     font-size: 3rem;
 }
-
-
-
-
 
 
 /*TESTIMONIALS*/
@@ -222,4 +220,36 @@ section{
 .author-info p {
     font-size: 12px;
     color: #8899a8;
+}
+
+footer .footer_container{
+    background-color: #637381;
+    box-shadow: 0px 0px 10px #8899a8;
+}
+
+.footer_image img{
+    height: 150px;
+    width: 150px;
+
+}
+
+.cards_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer_container a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: black;
+    transition: .4s;
+}
+
+.footer_container a:hover{
+    color:#f9fafb;
+}
+
+.footer_container ul{
+    list-style-type: none;
 }
