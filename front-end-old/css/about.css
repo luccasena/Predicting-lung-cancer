@@ -181,6 +181,7 @@ main{
 
 .cards_container li{
   padding: .5rem;
+  margin-top: 2rem;
 }
 
 .cards_container a{
@@ -194,7 +195,7 @@ main{
   font-size: 2.2rem;
   text-transform: uppercase;
   letter-spacing: 4px;
-  margin-top: 5.6rem;
+  margin-top: 12rem;
   color: #fff;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
