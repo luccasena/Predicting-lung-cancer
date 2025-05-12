@@ -26,37 +26,196 @@
     </header>
     
     <main>
-      <section class="main-content">
-        <div class="container">
-          <div class="form-container">
-            <div class="form-header">
-              <h2 class="t-forecast">Diagnostic Forecast</h2>
-            </div>
-            <div class="form-body">
-              <form  id="" method="" action="">
-                <div class="form-section">
-                  <h3 class="form-section-title">enter your details</h3>
-                </div>
-                <div class="form-row">
-                  <div class="form-col">
-                    <div class="form-group">
-                      <label for="name">Full name</label>
-                      <input type="text" id="name" name="name" placeholder="Ex. Henry Clovervild">
-                    </div>
-                  </div>
-                </div>
-                <div class="form-row">
-                  <div class="form-col">
-                    <div class="form-group">
-                      <label for="name">Age</label>
-                      <input type="number" id="age" name="age" placeholder="Ex. 50">
-                    </div>
-                  </div>
-                </div>
-                
-              </form>
+      <div class="container">
+        <h2>Formulário de Saúde</h2>
+        <form>
+    
+          <!-- AGE -->
+          <div class="form-group">
+            <label for="age">AGE</label>
+            <input type="number" id="age" name="age" required>
+          </div>
+    
+          <!-- GENDER -->
+          <div class="form-group">
+            <label>GENDER</label>
+            <div class="radio-group">
+              <label><input type="radio" name="gender" value="Masculino" required> Masculino</label>
+              <label><input type="radio" name="gender" value="Feminino"> Feminino</label>
             </div>
           </div>
-        </div>
-      </section>
+    
+          <!-- SMOKING -->
+          <div class="form-group">
+            <label>SMOKING</label>
+            <div class="radio-group">
+              <label><input type="radio" name="smoking" value="Sim" required> Sim</label>
+              <label><input type="radio" name="smoking" value="Não"> Não</label>
+            </div>
+          </div>
+    
+          <!-- FINGER DISCOLORATION -->
+          <div class="form-group">
+            <label>Finger Discolloration</label>
+            <div class="radio-group">
+              <label><input type="radio" name="finger_discoloration" value="Sim" required> Sim</label>
+              <label><input type="radio" name="finger_discoloration" value="Não"> Não</label>
+            </div>
+          </div>
+    
+          <!-- MENTAL STRESS -->
+          <div class="form-group">
+            <label>Mental Stress</label>
+            <div class="radio-group">
+              <label><input type="radio" name="mental_stress" value="Sim" required> Sim</label>
+              <label><input type="radio" name="mental_stress" value="Não"> Não</label>
+            </div>
+          </div>
+    
+          <!-- EXPOSURE TO POLLUTION -->
+          <div class="form-group">
+            <label>Pollution</label>
+            <div class="radio-group">
+              <label><input type="radio" name="pollution" value="Sim" required> Sim</label>
+              <label><input type="radio" name="pollution" value="Não"> Não</label>
+            </div>
+          </div>
+    
+          <!-- LONG TERM ILLNESS -->
+          <div class="form-group">
+            <label>Long Term Illness</label>
+            <div class="radio-group">
+              <label><input type="radio" name="long_term_illness" value="Sim" required> Sim</label>
+              <label><input type="radio" name="long_term_illness" value="Não"> Não</label>
+            </div>
+          </div>
+    
+          <!-- ENERGY LEVEL -->
+          <div class="form-group">
+            <label>Energy Level</label>
+            <input type="number" step="0.1" name="energy_level" required>
+          </div>
+    
+          <!-- IMMUNE WEAKNESS -->
+          <div class="form-group">
+            <label>Immune Weakness</label>
+            <div class="radio-group">
+              <label><input type="radio" name="immune_weakness" value="Sim" required> Sim</label>
+              <label><input type="radio" name="immune_weakness" value="Não"> Não</label>
+            </div>
+          </div>
+    
+          <!-- BREATHING ISSUE -->
+          <div class="form-group">
+            <label>Breathing Issue</label>
+            <div class="radio-group">
+              <label><input type="radio" name="breathing_issue" value="Sim" required> Sim</label>
+              <label><input type="radio" name="breathing_issue" value="Não"> Não</label>
+            </div>
+          </div>
+    
+          <!-- ALCOHOL CONSUMPTION -->
+          <div class="form-group">
+            <label>Alcohol</label>
+            <div class="radio-group">
+              <label><input type="radio" name="alcohol" value="Sim" required> Sim</label>
+              <label><input type="radio" name="alcohol" value="Não"> Não</label>
+            </div>
+          </div>
+    
+          <!-- THROAT DISCOMFORT -->
+          <div class="form-group">
+            <label>Throat</label>
+            <div class="radio-group">
+              <label><input type="radio" name="throat" value="Sim" required> Sim</label>
+              <label><input type="radio" name="throat" value="Não"> Não</label>
+            </div>
+          </div>
+    
+          <!-- OXYGEN SATURATION -->
+          <div class="form-group">
+            <label>Oxygen saturation</label>
+            <input type="number" step="0.1" name="oxygen_saturation" required>
+          </div>
+    
+          <!-- CHEST TIGHTNESS -->
+          <div class="form-group">
+            <label>Aperto no peito</label>
+            <div class="radio-group">
+              <label><input type="radio" name="chest" value="Sim" required> Sim</label>
+              <label><input type="radio" name="chest" value="Não"> Não</label>
+            </div>
+          </div>
+    
+          <!-- FAMILY HISTORY -->
+          <div class="form-group">
+            <label>Family History</label>
+            <div class="radio-group">
+              <label><input type="radio" name="family_history" value="Sim" required> Sim</label>
+              <label><input type="radio" name="family_history" value="Não"> Não</label>
+            </div>
+          </div>
+    
+          <!-- SMOKING FAMILY HISTORY -->
+          <div class="form-group">
+            <label>Smoking Family</label>
+            <div class="radio-group">
+              <label><input type="radio" name="smoking_family" value="Sim" required> Sim</label>
+              <label><input type="radio" name="smoking_family" value="Não"> Não</label>
+            </div>
+          </div>
+    
+          <!-- STRESS IMMUNE -->
+          <div class="form-group">
+            <label>Stress Immune</label>
+            <div class="radio-group">
+              <label><input type="radio" name="stress_immune" value="Sim" required> Sim</label>
+              <label><input type="radio" name="stress_immune" value="Não"> Não</label>
+            </div>
+          </div>
+    
+          <!-- PULMONARY DISEASE -->
+          <div class="form-group">
+            <label>Pulmonary Disase</label>
+            <div class="radio-group">
+              <label><input type="radio" name="pulmonary_disease" value="Sim" required> Sim</label>
+              <label><input type="radio" name="pulmonary_disease" value="Não"> Não</label>
+            </div>
+          </div>
+    
+          <!-- Botão de envio -->
+          <div class="form-group full-width" style="text-align: center;">
+            <button type="submit">Submit</button>
+          </div>
+        </form>
+      </div>
     </main>
+
+    <footer>
+      <div class="footer_container">
+              <div class="cards_container">
+                  <div class="footer_logo">
+                      <h1>Lung Cancer</h1>
+                  </div>
+                  <div class="home_cards">
+                      <ul>
+                          <li><a href="#">About us</a></li>
+                          <li><a href="#">Lung Cancer</a></li>
+                          <li><a href="#">Preventive Care</a></li>
+                          <li><a href="#">Predicting Lung Cancer</a></li>
+                      </ul>
+                  </div>
+
+                  <div class="media_cards">
+                      <ul>
+                          <li><a href="#">Whatsapp</a></li>
+                          <li><a href="#">Instagram</a></li>
+                          <li><a href="#">GitHub</a></li>
+                      </ul>
+                  </div>
+              </div>
+       </div>
+  </footer>
+
+</body>
+</html>
