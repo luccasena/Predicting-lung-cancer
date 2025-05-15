@@ -123,6 +123,25 @@ nav {
     font-weight: 400;
     font-style: italic;
     font-size: 5rem;
+    margin-top: 5rem;
+}
+
+.wrraper-dark{
+  text-align: center;
+  padding: 1rem 6%;
+  margin-top: 7rem;
+}
+
+.wrraper-dark i{
+  font-size: 10rem;
+}
+
+.wrraper-dark p{
+  font-size: 2rem;
+  margin-top: 1rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
 }
 
 .container-dark img{
@@ -134,12 +153,11 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0 4%;
+    padding: 0 8%;
 }
 
 .container-dark-txt{
     font-size: 2.4rem;
-    margin-left: 1rem;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -149,7 +167,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0 4%;
+    padding: 0 8%;
 }
 
 .container-star img{
@@ -383,6 +401,10 @@ nav {
     height: 500px;
   }
 
+  .wrraper-dark{
+    margin-top: 5rem;
+  }
+
 }
 
 @media (max-width:358px){
@@ -406,6 +428,14 @@ nav {
   .container-star img{
     width: 300px;
     height: 500px;
+  }
+
+  .wrraper-dark p{
+    font-size: 1.3rem;
+  }
+
+  .wrraper-dark i{
+    font-size: 7rem;
   }
 
 }
